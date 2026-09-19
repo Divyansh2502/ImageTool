@@ -7,5 +7,5 @@
     <meta name="description" content="Private image compression, resizing, and PDF creation in your browser." />
     <title>ImageTools — private image utilities</title>
   </head>
-  <body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body>
+  <body><div id="root"></div><script type="module" src="/src/main.tsx"></script><script>const maximumSizeField='input[aria-label="Maximum size"]';function syncMaximumSize(input){if(!input.dataset.initialized){input.dataset.initialized='true';if(input.value==='500'){const set=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set;set.call(input,'');input.dispatchEvent(new Event('input',{bubbles:true}));}input.placeholder=localStorage.getItem('imagetools-language')==='hi'?'लक्ष्य आकार दर्ज करें':'Enter target size';}const target=input.closest('.workflow')?.querySelector('.target');if(target)target.hidden=!input.value;}new MutationObserver(()=>document.querySelectorAll(maximumSizeField).forEach(syncMaximumSize)).observe(document.body,{childList:true,subtree:true});document.addEventListener('input',event=>{if(event.target.matches?.(maximumSizeField))syncMaximumSize(event.target);});</script></body>
 </html>
