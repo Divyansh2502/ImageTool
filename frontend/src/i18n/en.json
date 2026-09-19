@@ -21,5 +21,20 @@
   "downloadPdf": "Download PDF",
   "tryAnother": "Start again",
   "processing": "Processing your image…",
-  "error": "We couldn't process this image. The file may be damaged, unsupported, or too large. Please choose another image."
+  "error": "We couldn't process this image. The file may be damaged, unsupported, or too large. Please choose another image.",
+  "upload": "Upload",
+  "choose": "Choose",
+  "set": "Set",
+  "finish": "Finish",
+  "maximum": "Maximum: {{size}}",
+  "finalSize": "Choose your final size",
+  "adjustFinal": "Adjust the size again without going back.",
+  "adjusting": "Adjusting image…",
+  "original": "Original",
+  "compressed": "Compressed",
+  "ready": "Your image is ready",
+  "continueAction": "Continue",
+  "targetPlaceholder": "Enter target size",
+  "maximumFileSize": "Maximum file size",
+  "sizeUnit": "Size unit"
 }

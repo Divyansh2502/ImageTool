@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://duimagetools.vercel.app/sitemap.xml
