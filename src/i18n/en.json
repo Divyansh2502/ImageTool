@@ -1,0 +1,23 @@
+{
+  "appName": "ImageTools",
+  "tagline": "Simple · Fast · Private · Free",
+  "homeHeading": "Simple tools for your images.",
+  "homeIntro": "Choose what you would like to do. No accounts, uploads, or complicated settings.",
+  "privacyNote": "No image leaves your browser.",
+  "privacy": "Your images stay on your device. They are processed in your browser and are never uploaded.",
+  "compress": "Compress Image",
+  "resize": "Resize Image",
+  "pdf": "Image → PDF",
+  "compressDescription": "Make your image file smaller.",
+  "resizeDescription": "Change the width or height of your image.",
+  "pdfDescription": "Turn one or more images into a PDF.",
+  "chooseImage": "Choose Image",
+  "addImages": "Add Images",
+  "continue": "Continue",
+  "back": "Back",
+  "downloadImage": "Download Image",
+  "downloadPdf": "Download PDF",
+  "tryAnother": "Start again",
+  "processing": "Processing your image…",
+  "error": "We couldn't process this image. The file may be damaged, unsupported, or too large. Please choose another image."
+}
